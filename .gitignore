@@ -1,7 +1,7 @@
 # Data folders
-data/raw/
-data/processed/
-data/annotations/
+dataset/train/*
+dataset/test/*
+dataset/valid/*
 
 # Model files
 *.pt
@@ -101,3 +101,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# pictures
+*.jpg
+
+*.yaml
+
+*.txt
